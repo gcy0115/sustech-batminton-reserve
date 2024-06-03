@@ -1,10 +1,10 @@
 {
     "config":{
-        "customer_name": "XXXXXXXX",
-        "student_id": "XXXXXXXX",
+        "customer_name": "高骋远",
+        "student_id": "12232350",
         "num_people": "4",
         "set_time": "2023-10-23 20:00:00",
-        "customer_tel": "XXXXXXXX",
+        "customer_tel": "15256266892",
         "ground_id": {
             "1": "1298272433186332673",
             "2": "1298272520994086913",
@@ -19,13 +19,10 @@
         }
     },
     "start_time": [
-        "2023-10-31 18:00:00",
-        "2023-10-31 18:30:00",
-        "2023-10-31 19:30:00"],
+        "2024-6-5 9:00:00"
+        ],
     "end_time": [
-        "2023-10-31 19:00:00",
-        "2023-10-31 19:30:00",
-        "2023-10-31 20:00:00"],
+        "2024-6-5 10:00:00"],
     "user_agents":[
     "Mozilla/5.0 (iPhone; CPU iPhone OS 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E146 wxwork/4.1.10 MicroMessenger/6.9.9 Language/en ColorScheme/Dark",
     "Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E145 wxwork/4.1.10 MicroMessenger/6.9.8 Language/en ColorScheme/Dark"]

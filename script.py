@@ -22,10 +22,10 @@ class Reservation():
         self.user_agent = user_agent
 
     def post_reservation(self, config, id: int):
-        url = "http://reservation.ruichengyunqin.com/api/blade-app/qywx/saveOrder?userid=" + config["student_id"]
+        url = "https://reservation.sustech.edu.cn/api/blade-app/qywx/saveOrder?userid=12232350&token=a2976e4d-fd25-4c39-a062-306349de0e7e"
         p_data = {
             "customerName": config["customer_name"],
-            "customerId": "1437697929161785346",
+            "customerId": "1580607610988580866",
             "customerTel": config["customer_tel"],
             "userNum": config["num_people"],
             "customerEmail": "",
@@ -45,7 +45,8 @@ class Reservation():
         headers = {
             "Accept": "application/json, text/plain, */*",
             "User-Agent": self.user_agent,
-            "Referer": "http://reservation.ruichengyunqin.com/clientMobile.html?code=1cVcUOBdJe8bibtLkkRVBVz3a3AT1j2LqcXrk5zglpM&state=STATE"
+            # "Referer": "http://reservation.ruichengyunqin.com/clientMobile.html?code=1cVcUOBdJe8bibtLkkRVBVz3a3AT1j2LqcXrk5zglpM&state=STATE"
+            "Refers": "https://reservation.sustech.edu.cn/clientMobile.html?code=W18c-zbZ4oXilWs3LFK6TXkvUZ5TqThWHbqQUAdtBRA&state=STATE"
         }
         try:
             re = requests.post(url, json=p_data, headers=headers)
